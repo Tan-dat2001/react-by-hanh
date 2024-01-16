@@ -1,0 +1,103 @@
+#hannah .btn-input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#hannah .btn-minus,
+#hannah .btn-plus {
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+    border: 1px solid whitesmoke !important;
+    width: 38px !important;
+    padding: 5px 5px !important;
+    border-radius: 5px !important;
+    cursor: pointer;
+}
+
+#hannah .btn-minus:hover,
+#hannah .btn-plus:hover {
+    background-color: orange;
+}
+
+#hannah .input-quantity::-webkit-outer-spin-button,
+#hannah .input-quantity::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* iddddd */
+#hannah .btn-in-cart:hover {
+    color: palevioletred;
+}
+
+#hannah .btn-in-cart {
+    height: 10px;
+    width: 15px;
+    background: none !important;
+    border: none !important;
+    font-weight: bold;
+}
+
+.carousel-control-next,
+.carousel-control-prev
+
+/*, .carousel-indicators */
+    {
+    filter: invert(100%);
+}
+
+.paypal-button-number-1 {
+    display: none;
+}
+
+.paypal-button:nth-of-type(2) {
+    display: none;
+}
+
+.paypal-button-container:nth-of-type(2),
+.paypal-button-layout-vertical:nth-of-type(2),
+.paypal-button-shape-rect:nth-of-type(2),
+.paypal-button-number-multiple:nth-of-type(2),
+.paypal-button-env-sandbox:nth-of-type(2) {
+    display: none;
+}
+
+.toast-position {
+    top: 5rem !important;
+}
+
+/* .input-for-quantity::-webkit-outer-spin-button {
+-webkit-appearance: none;
+  
+}
+.input-for-quantity{
+  width: 40px !important;
+  border: 1px grey solid !important;
+  text-align: center !important;
+  border-radius: 5px;
+  padding: 0px; 
+  margin: 0px;
+} */
+
+.custom-cart{
+    top:70px;
+   
+}
+.course-name {
+        display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+}
+.payment-btn{
+background: linear-gradient(90deg, #7c32ff 0%, #c738d8 100%);
+color: white;
+}
+.back-btn:hover{
+    background: linear-gradient(90deg, #7c32ff 0%, #c738d8 100%);
+        color: white;
+}

@@ -1,0 +1,26 @@
+.ytp-chrome-top{
+    display: none !important;
+}
+
+#my-learning-btn {
+    background: linear-gradient(90deg, #7c32ff 0%, #c738d8 100%) !important;
+    color: white !important;
+}
+
+.my-learning-btn {
+    background: linear-gradient(90deg, #7c32ff 0%, #c738d8 100%) !important;
+    color: white !important;
+}
+.back-btn:hover {
+    background: linear-gradient(90deg, #7c32ff 0%, #c738d8 100%);
+    color: white !important;
+}
+
+.back-btn {
+    
+    color: #0e6efd !important;
+}
+
+.star-gap {
+    margin-right: 10px;
+}
